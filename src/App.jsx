@@ -1,18 +1,16 @@
 import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
 import "./App.css";
 import TodoAdd from "./components/TodoAdd";
 import TodoList from "./components/TodoList";
 
 function App() {
-  const [count, setCount] = useState(0);
+  const[todos,setTodos]=useState([])
 
   return (
     <>
       <h1>Todo App</h1>
-      <TodoAdd/>
-      <TodoList/>
+      <TodoAdd todos={todos} setTodos={setTodos}/>
+      <TodoList todos={todos} setTodos={setTodos} />
     </>
   );
 }

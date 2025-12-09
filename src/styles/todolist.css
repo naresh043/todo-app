@@ -41,3 +41,8 @@
 .delete-btn:hover {
   background: #440d0d;
 }
+.ascending ,.descending{
+  padding: 5px 10px;
+  border-radius: 10px;
+  background-color: bisque;
+}
