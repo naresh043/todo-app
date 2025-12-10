@@ -46,3 +46,17 @@
   border-radius: 10px;
   background-color: bisque;
 }
+
+/* black Theme  */
+.app.dark .todo-table {
+  background-color: #1e293b;
+  color: white;
+}
+
+.app.dark .todo-table th {
+  background-color: #020617;
+}
+
+.app.dark .todo-table td {
+  border-color: #334155;
+}

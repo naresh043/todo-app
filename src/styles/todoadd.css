@@ -43,3 +43,13 @@
 .error-msg{
   color: red;
 }
+
+/* black theme  */
+
+.app.dark .add-btn {
+  background-color: #22c55e;
+}.app.dark .inpt-field {
+  background-color: #020617;
+  color: white;
+  border: 1px solid #334155;
+}

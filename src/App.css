@@ -40,3 +40,30 @@
 .read-the-docs {
   color: #888;
 } */
+
+
+
+/* ===== THEME BUTTON ===== */
+.theme-btn {
+  padding: 8px 16px;
+  border-radius: 8px;
+  border: none;
+  margin-bottom: 20px;
+  cursor: pointer;
+  background-color: #4f46e5;
+  color: white;
+}
+
+.app.light {
+  background-color: #ffffff;
+  color: #000000;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.app.dark {
+  background-color: #0f172a;
+  color: #ffffff;
+  min-height: 100vh;
+  padding: 20px;
+}

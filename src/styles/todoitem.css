@@ -1,0 +1,6 @@
+.completed-item td {
+  text-decoration: line-through;
+  opacity: 0.6;  
+  background-color: rgba(119, 136, 153, 0.473);
+}
+
